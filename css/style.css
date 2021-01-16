@@ -1,0 +1,242 @@
+*{margin: 0; padding: 0;}
+html{
+color: #555555; font-family:Lato ;
+font-size: 15px;
+}
+
+header{
+    height:100vh;
+background-image:linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0,0,0,.7)) , url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero-box{
+    position: absolute;
+    top: 40%; left: 10%; 
+}
+h1{
+    letter-spacing: 2px;
+    font-size: 250%;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.btn1,.btn2{
+    text-decoration: none;
+    border: solid 1px #E67E22;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    color: #E67E22;
+}
+.btn1,.btn2:hover{
+    background-color: #E67E22;
+    color: #ffffff;
+}
+.logo{
+    height: 15vh; margin-top: 20px;
+    float: left;
+}
+.main-nav{
+    margin-top: 55px;
+    float: right;
+    list-style: none;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a{
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+}
+.main-nav li a:hover{
+    color: #E67E22;
+    /* text-decoration: underline; */
+}
+section{
+    padding: 40px 0;
+}
+h2{
+    letter-spacing: 2px;
+    font-size: 150%;
+    text-transform: uppercase;
+    text-align: center;
+}
+hr{
+    border: solid 1px #E67E22 ;
+    margin: 20px auto;
+    width: 100px;
+}
+.features-desc{
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+}
+.box{
+    margin: 20px 0;
+}
+.box i{
+    color:#E67E22 ;
+    font-size: 40px;
+}
+ h3{
+    margin:20px 0;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+.meal{
+    padding: 0; margin: 0;
+}
+#work{
+background-color: #F4F4F4;
+}
+.iphone,.how-work{
+    margin-top: 30px;
+}
+.iphone img{
+    float: right;
+}
+.how-work{
+     margin-top: 70px;
+}
+.howi,.howp{
+    margin-bottom: 30px;
+}
+.how-work .number{
+    height:40px;
+    float: right;
+    vertical-align: middle;
+}
+.how-work .ip{
+    margin-left: 30px;
+}
+.how-work .andriod{
+     margin-left: 100px; 
+}
+.city{
+    margin-top: 30px;
+}
+.city img{
+    box-shadow: 10px 10px 15px #ccc;
+    transition: .7s
+} 
+.info{
+    margin-bottom: 5px;
+}
+.info i{
+    color:#E67E22 ;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.info a{
+    color:#E67E22 ;
+}
+#testimonials{
+background-image:linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0,0,0,.7)) , url(../images/back-customers.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+background-attachment: fixed;
+color: #ffffff;
+}
+.qoute{
+    margin-top: 30px;
+}
+#testimonials p{
+line-height: 150%;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+#testimonials img{
+border-radius: 50%;
+height: 50px;
+vertical-align: middle;
+margin-right: 10px;
+}
+.map{
+    margin-top: 30px;
+}
+.contact{
+    margin: 100px 0; 
+}
+.four{
+    margin-bottom: 10px;
+}
+.eight input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px 2px;
+}
+.eight textarea{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px 3px;
+    height: 100px;
+}
+.eight select{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px 0;
+}
+button{
+    text-decoration: none;
+    border: solid 1px #E67E22;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: #E67E22;
+    color: #ffffff;
+    width: 100px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #E67E22 ;
+}
+footer{
+    background-color:#333333;
+    height: 170px;
+}
+.footer-nav-left{
+    list-style: none;
+    margin-top:40px;
+    margin-bottom:10px;
+    float: left;
+}
+.footer-nav-left li{ 
+    display: inline-block;
+    margin-right: 10px; 
+}
+.footer-nav-left li a{
+    text-decoration: none;
+    color: #888888;
+}
+.footer-nav-left li a:hover{
+    color: #ccc;
+}
+.footer-nav-right{
+    list-style: none;
+    margin-top:40px;
+    margin-bottom: 10px;
+    float: right;
+}
+.footer-nav-right li{  
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.footer-nav-right li a{
+    text-decoration: none;
+    color: #888888;
+}
+.footer-nav-right li a:hover{
+    color: #ccc;
+}
+footer p{
+    margin-top: 50px;
+    text-align: center;
+    color: #888888;
+}
